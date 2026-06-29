@@ -1,6 +1,7 @@
-# CommunityHub - Multi-Tenant Community Management System
+# Multi-Tenant Community Management System
 
 ![React](https://img.shields.io/badge/React-Frontend-blue)
+![Express.js](https://img.shields.io/badge/Express.js-Backend-green)
 ![Node.js](https://img.shields.io/badge/Node.js-Runtime-green)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue)
 
@@ -180,7 +181,7 @@ npm run dev
 
 ---
 
-## API Modules
+## Modules
 
 * Authentication
 * Dashboard
@@ -191,3 +192,34 @@ npm run dev
 * Society
 * Users
 
+## Screenshots
+
+<p align="center">
+  <img src="assets/login.png" width="48%">
+  <img src="assets/setup.png" width="48%">
+</p>
+
+<p align="center">
+  <img src="assets/admin-dashboard.png" width="48%">
+  <img src="assets/admin-community.png" width="48%">
+</p>
+
+<p align="center">
+  <img src="assets/admin-directory.png" width="48%">
+  <img src="assets/admin-visitors.png" width="48%">
+</p>
+
+<p align="center">
+  <img src="assets/admin-tickets.png" width="48%">
+  <img src="assets/admin-finances.png" width="48%">
+</p>
+
+<p align="center">
+  <img src="assets/resident-feed.png" width="48%">
+  <img src="assets/resident-finances.png" width="48%">
+</p>
+
+<p align="center">
+  <img src="assets/guard-dashboard.png" width="48%">
+  <img src="assets/payment.png" width="48%">
+</p>

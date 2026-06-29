@@ -9,7 +9,7 @@ router.get('/my-dues', protect, financeController.getMyDues);
 router.get('/dues-status', protect, financeController.getMonthlyDuesStatus);
 router.post('/pay/verify', protect, financeController.verifyPayment);
 router.get('/payment-settings',protect,financeController.getPaymentSettings);
-router.put('/payment-settings',protect,financeController.updatePaymentSetting);
+router.put('/payment-settings', protect, financeController.updatePaymentSettings);
 router.post('/pay/order/:dueId', protect, financeController.createOrder);
 
 module.exports = router;
