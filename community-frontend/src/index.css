@@ -1,0 +1,13 @@
+/* Resetting the default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Setting the global page styles */
+body, html {
+  height: 100%;
+  font-family: sans-serif;
+  background-color: #F4F6F7; /* Matches the dashboard background */
+}
