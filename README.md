@@ -194,32 +194,32 @@ npm run dev
 
 ## Screenshots
 
-<p align="center">
+<p align="center" style="display: flex; justify-content: space-between; align-items: flex-start;">
   <img src="assets/login.png" width="48%">
   <img src="assets/setup.png" width="48%">
 </p>
 
-<p align="center">
+<p align="center" style="display: flex; justify-content: space-between; align-items: flex-start;">
   <img src="assets/admin-dashboard.png" width="48%">
   <img src="assets/admin-community.png" width="48%">
 </p>
 
-<p align="center">
+<p align="center" style="display: flex; justify-content: space-between; align-items: flex-start;">
   <img src="assets/admin-directory.png" width="48%">
   <img src="assets/admin-visitors.png" width="48%">
 </p>
 
-<p align="center">
+<p align="center" style="display: flex; justify-content: space-between; align-items: flex-start;">
   <img src="assets/admin-tickets.png" width="48%">
   <img src="assets/admin-finances.png" width="48%">
 </p>
 
-<p align="center">
+<p align="center" style="display: flex; justify-content: space-between; align-items: flex-start;">
   <img src="assets/resident-feed.png" width="48%">
   <img src="assets/resident-finances.png" width="48%">
 </p>
 
-<p align="center">
+<p align="center" style="display: flex; justify-content: space-between; align-items: flex-start;">
   <img src="assets/guard-dashboard.png" width="48%">
   <img src="assets/payment.png" width="48%">
 </p>
