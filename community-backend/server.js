@@ -39,9 +39,11 @@ app.get('/api/health', (req, res) => {
 cron.schedule('0 0 * * *', async () => {
     try {
         // Removing visitor records older than one month
+        // db.query returns an array with elements - result and fields
         const [result] = await db.query(`
-            DELETE FROM visitors 
-            WHERE time_in < NOW() - INTERVAL 1 MONTH
+            DELETE FROM visitors
+            WHERE exit_time IS NOT NULL
+            AND exit_time < NOW() - INTERVAL 1 MONTH
         `);
         console.log(`[CRON] Cleaned up ${result.affectedRows} old visitor records.`);
     } 
