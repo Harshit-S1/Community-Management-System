@@ -7,8 +7,22 @@ const ProtectedRoute = ({ allowedRoles }) => {
   // Verifying the user's authentication status
   if (loading) {
     return (
-      <div className="flex justify-center items-center h-screen">
-        <p className="text-gray-500 text-lg">Verifying access...</p>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "100vh",
+        }}
+      >
+        <p
+          style={{
+            color: "#6b7280",
+            fontSize: "1.125rem",
+          }}
+        >
+          Verifying access...
+        </p>
       </div>
     );
   }
