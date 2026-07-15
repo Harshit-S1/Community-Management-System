@@ -131,10 +131,22 @@ const ResidentNotices = () => {
                                                                     : 'pointer'
                                                         }}
                                                     >
-                                                        <span>
-                                                            {option.voted ? '✓ ' : ''}
-                                                            {option.option_text}
-                                                        </span>
+                                                        <div
+                                                            style={{
+                                                                display: 'flex',
+                                                                justifyContent: 'space-between',
+                                                                alignItems: 'center'
+                                                            }}
+                                                        >
+                                                            <span>
+                                                                {option.voted ? '✓ ' : ''}
+                                                                {option.option_text}
+                                                            </span>
+
+                                                            <span style={{ color: '#666', fontSize: '13px' }}>
+                                                                {option.vote_count || 0} votes ({percent}%)
+                                                            </span>
+                                                        </div>
                                                     </button>
                                                 </div>
                                             );
